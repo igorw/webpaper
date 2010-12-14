@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Web Paper</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic,bold" rel="stylesheet">
+  <link rel="stylesheet/less" href="css/style.less?v=2">
+</head>
+
+<body>
+
+<a id="top"></a>
+
+<header>
+  <h1>Web Paper</h1>
+  <h2>Igor Wiedler</h2>
+  <p>
+    Dec 12, 2010
+  </p>
+</header>
+
+<article class="hyphenate">
+  <p class="centered light">
+    <em>Oh my God, ponies!</em>
+  </p>
+  
+  <h2><a id="abstract" href="#abstract">Abstract</a></h2>
+  <p>
+    It’s about something important.
+  </p>
+  
+  <h2><a id="math" href="#math">Math</a></h2>
+  <p>
+    \[
+      \begin{aligned}
+      \dot{x} &amp; = \sigma(y-x) \\
+      \dot{y} &amp; = \rho x - y - xz \\
+      \dot{z} &amp; = -\beta z + xy
+      \end{aligned}
+    \]
+  </p>
+  
+  <h2><a id="git" href="#git">Git</a></h2>
+  <p>
+    However, the SCMs I've looked at make this hard. One of the things (the main thing, in fact) I've been working at is to make that process really efficient. If it takes half a minute to apply a patch and remember the changeset boundary etc. (and quite frankly, that's fast for most SCMs around for a project the size of Linux), then a series of 250 emails (which is not unheard of at all when I sync with Andrew, for example) takes two hours. If one of the patches in the middle doesn't apply, things are bad bad bad.
+  </p>
+  <p>
+    Now, BK wasn't a speed demon either (actually, compared to everything else, BK is a speed deamon [sic], often by one or two orders of magnitude), and took about 10–15 seconds per email when I merged with Andrew. HOWEVER, with BK that wasn't as big of an issue, since the BK&lt;-&gt;BK merges were so easy, so I never had the slow email merges with any of the other main developers. So a patch-application-based SCM "merger" actually would need to be faster than BK is. Which is really really really hard.
+  </p>
+  <p>
+    So I'm writing some scripts to try to track things a whole lot faster. Initial indications are that I should be able to do it almost as quickly as I can just apply the patch, but quite frankly, I'm at most half done, and if I hit a snag maybe that's not true at all. Anyway, the reason I can do it quickly is that my scripts will not be an SCM, they'll be a very specific "log Linus' state" kind of thing. That will make the linear patch merge a lot more time-efficient, and thus possible.
+  </p>
+  <p>
+    (If a patch apply takes three seconds, even a big series of patches is not a problem: if I get notified within a minute or two that it failed half-way, that's fine, I can then just fix it up manually. That's why latency is critical—if I'd have to do things effectively "offline", I'd by definition not be able to fix it up when problems happen).
+  </p>
+  
+  <h2><a id="gangster" href="#gangster">Gangster</a></h2>
+  <p>
+    Lorizzle ipsum dolizzle sizzle amizzle, owned adipiscing elit. Shut the shizzle up shiz velizzle, black volutpizzle, dizzle quizzle, gravida vizzle, arcu. Pellentesque fizzle tortizzle. Cool erizzle. Away izzle dolor dapibizzle turpis tempizzle rizzle. Bow wow wow pellentesque izzle turpizzle. Boofron in sure. Pellentesque eleifend rhoncizzle fo. In hizzle hizzle platea dictumst. Izzle dapibizzle. Sheezy funky fresh urna, pretium fo shizzle mah nizzle fo rizzle, mah home g-dizzle, own yo' ac, eleifend da bomb, gizzle. Shit suscipit. Integer things velit ma nizzle break yo neck, yall.
+  </p>
+  <p>
+    Curabitizzle black diam nisi da bomb mollizzle. Suspendisse shiz. Crunk odio. Gangsta neque. Cras mammasay mammasa mamma oo sa. Crizzle mauris things, brizzle a, feugizzle sit amizzle, yo izzle, pede. Pellentesque gravida. Vestibulizzle pimpin' mi, volutpat own yo', mofo sizzle, gangsta sempizzle, velit. Crizzle daahng dawg ipsizzle. Sizzle volutpizzle felis phat orci. Crizzle daahng dawg justo in purus shiznit ornare. Gizzle venenatizzle justo izzle its fo rizzle. Nunc urna. Suspendisse venenatizzle break yo neck, yall lacizzle. Curabitizzle dizzle fo shizzle. You son of a bizzle pharetra, fo shizzle eu dapibus hendrerizzle, ipsum felis elementum sizzle, fo shizzle mah nizzle fo rizzle, mah home g-dizzle aliquizzle magna funky fresh we gonna chung pede. Izzle a nisl. Class shizzle my nizzle crocodizzle da bomb cool ass litora torquent per conubia fizzle, per inceptos mammasay mammasa mamma oo sa. Aliquam interdum, tellivizzle nizzle elementizzle nonummy, nisl orci viverra leo, mah nizzle fo shizzle risus arcu daahng dawg sem.
+  </p>
+  <p>
+    Duis ut dolor. Fusce dope ligula, yippiyo sit amet, fringilla brizzle, we gonna chung bling bling, phat. Maecenas a you son of a bizzle. Sed sheezy neque fo risus. Pizzle i'm in the shizzle. Crizzle aliquet tristique turpizzle. Bling bling daahng dawg ultricizzle purizzle. Sizzle dolizzle you son of a bizzle, pharetra interdum, posuere izzle, fo shizzle my nizzle izzle, augue. Sizzle you son of a bizzle tellus. Bizzle rizzle lectizzle doggy boofron ass. Fusce mah nizzle felizzle fo shizzle my nizzle fo shizzle. Lorem ipsizzle fo shizzle sizzle amizzle, crackalackin adipiscing elizzle. Dang massa things, mah nizzle funky fresh, ullamcorpizzle break it down, consequat non, stuff. Nizzle fo shizzle mah nizzle nunc.
+  </p>
+  <p>
+    Dawg nizzle leo. Phasellizzle semper, nulla eu shiz congue, owned fo shizzle convallizzle crunk, fizzle elementizzle own yo' dizzle gangster gangsta. Vivamus rizzle laorizzle gizzle. Etiam break it down tempizzle magna. Crizzle interdum ornare leo. Vestibulum urna quizzle, pot a, dawg bow wow wow, faucibizzle izzle, owned. Hizzle eleifend euismizzle you son of a bizzle. Fizzle boofron gravida lectus. Dawg izzle tortizzle shut the shizzle up erizzle rizzle pulvinizzle. Morbi mollizzle owned erizzle. Nam egestizzle, metus hizzle dang sollicitudizzle, nisl velizzle you son of a bizzle urna, vulputate i'm in the shizzle velit purus ut velit. Suspendisse shut the shizzle up enim bling bling fo shizzle my nizzle. Sizzle da bomb izzle fo dui euismod euismod. Phasellus izzle ma nizzle. Nizzle velit. Suspendisse shizzlin dizzle nibh.
+  </p>
+  <p>
+    Yippiyo quis arcu. Donizzle gizzle. Maecenizzle placerat mauris mah nizzle fo shizzle. Morbi izzle sheezy. Crizzle id tortizzle shizzle my nizzle crocodizzle mi consectetuer condimentizzle. Bizzle ipsizzle for sure sit bizzle, the bizzle fo shizzle elizzle. Mofo we gonna chung arcu, elementizzle brizzle, eleifend crunk, mollis in, est. Sheezy erizzle yo. Donizzle tempizzle posuere turpizzle. Pot aliquizzle. Cras odio urna, its fo rizzle et, volutpat vitae, vehicula sizzle, shit. Praesent yo mamma orci, fo shizzle gangsta, sodales izzle, ma nizzle izzle, orci.
+  </p>
+  <p>
+    dignissizzle nisi funky fresh justo molestie crazy. Sed ligula i'm in the shizzle, dapibizzle ac, fo shizzle ac, molestie fizzle, nisl. Fo shizzle da bomb. Suspendisse away. Morbi nulla erizzle, sheezy yippiyo, bibendizzle dang, bibendizzle at, dolizzle. Go to hizzle daahng dawg brizzle. Maecenizzle daahng dawg tortizzle. Cras izzle nibh. Fo away. Rizzle dignissizzle sapizzle izzle arcu. Ut owned doggy vizzle sem eleifend mofo. Fusce pulvinar, nibh doggy vestibulizzle fringilla, neque libero tempizzle erizzle, vehicula elementum sizzle nunc lacinia pede. Quisque vestibulum sodalizzle dolor. Aliquizzle phat volutpizzle. My shizz sagittis, dui izzle dang consequizzle, massa lacus for sure elizzle, shizzle my nizzle crocodizzle check it out sizzle metus sed nibh.
+  </p>
+</article>
+
+<footer>
+
+</footer>
+
+<script src="js/less-1.0.36.min.js"></script>
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/Hyphenator/Hyphenator.js"></script>
+<script src="js/MathJax/MathJax.js"></script>
+<script src="js/script.js"></script>
+  
+</body>
+</html>
